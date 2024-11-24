@@ -133,7 +133,7 @@ Admin Dashboard"
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/logInButton"
+        android:id="@+id/loginButton"
         android:layout_width="152dp"
         android:layout_height="57dp"
         android:layout_marginStart="89dp"
@@ -150,15 +150,16 @@ Admin Dashboard"
         app:layout_constraintTop_toBottomOf="@+id/appCompatButton2" />
 
     <TextView
+        android:id="@+id/dontHaveAccountButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/lato_bold"
         android:text="Don't Have an account?"
         android:textColor="@color/textColor"
-        app:layout_constraintEnd_toEndOf="@+id/logInButton"
-        app:layout_constraintStart_toStartOf="@+id/logInButton"
-        app:layout_constraintTop_toBottomOf="@+id/logInButton" />
+        app:layout_constraintEnd_toEndOf="@+id/loginButton"
+        app:layout_constraintStart_toStartOf="@+id/loginButton"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
