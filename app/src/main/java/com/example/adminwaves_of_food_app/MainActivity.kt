@@ -19,6 +19,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AddItemActivity::class.java)
             startActivity(intent)
         }
+        binding.addNewUser.setOnClickListener{
+            val intent = Intent(this, CreateNewActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 }

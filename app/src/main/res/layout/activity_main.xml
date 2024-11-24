@@ -354,10 +354,10 @@
         android:layout_marginEnd="8dp"
         android:outlineSpotShadowColor="@color/textColor"
         app:cardCornerRadius="15dp"
-        app:layout_constraintEnd_toEndOf="@+id/cardView5"
+        app:layout_constraintEnd_toEndOf="@+id/addNewUser"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/cardView5"
-        app:layout_constraintTop_toBottomOf="@+id/cardView5">
+        app:layout_constraintStart_toStartOf="@+id/addNewUser"
+        app:layout_constraintTop_toBottomOf="@+id/addNewUser">
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -388,7 +388,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView5"
+        android:id="@+id/addNewUser"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginTop="32dp"
