@@ -82,7 +82,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/pendingOrderText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -102,10 +102,10 @@
                 android:text="10"
                 android:textColor="@color/black"
                 android:textSize="20sp"
-                app:layout_constraintEnd_toEndOf="@+id/textView8"
+                app:layout_constraintEnd_toEndOf="@+id/pendingOrderText"
                 app:layout_constraintHorizontal_bias="0.515"
                 app:layout_constraintStart_toStartOf="@+id/guideline1"
-                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+                app:layout_constraintTop_toBottomOf="@+id/pendingOrderText" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -129,7 +129,7 @@
                 android:textAlignment="center"
                 android:textColor="@color/textColor"
                 android:textSize="20sp"
-                app:layout_constraintStart_toEndOf="@+id/textView8"
+                app:layout_constraintStart_toEndOf="@+id/pendingOrderText"
                 app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
             <TextView
