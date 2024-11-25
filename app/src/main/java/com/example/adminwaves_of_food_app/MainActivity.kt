@@ -28,6 +28,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+        binding.outForDelivery.setOnClickListener{
+            val intent = Intent(this, OutForDeliveryActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 }
