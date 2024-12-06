@@ -84,7 +84,7 @@ Admin Dashboard"
 
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="57dp"
         android:layout_marginLeft="20dp"
@@ -103,7 +103,7 @@ Admin Dashboard"
         app:layout_constraintTop_toBottomOf="@+id/selectEditLocation" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/resturantName"
         android:layout_width="match_parent"
         android:layout_height="57dp"
         android:layout_marginLeft="20dp"
@@ -120,11 +120,11 @@ Admin Dashboard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/name" />
 
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/emailOrPhone"
         android:layout_width="match_parent"
         android:layout_height="57dp"
         android:layout_marginLeft="20dp"
@@ -141,11 +141,11 @@ Admin Dashboard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.425"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/resturantName" />
 
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="57dp"
         android:layout_marginLeft="20dp"
@@ -162,11 +162,11 @@ Admin Dashboard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+        app:layout_constraintTop_toBottomOf="@+id/emailOrPhone" />
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/createButton"
+        android:id="@+id/createUserButton"
         android:layout_width="152dp"
         android:layout_height="57dp"
         android:layout_marginTop="12dp"
@@ -178,7 +178,7 @@ Admin Dashboard"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+        app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <TextView
         android:id="@+id/alreadyHaveAccount"
@@ -188,9 +188,9 @@ Admin Dashboard"
         android:fontFamily="@font/lato_bold"
         android:text="Already Have An Account?"
         android:textColor="@color/textColor"
-        app:layout_constraintEnd_toEndOf="@+id/createButton"
-        app:layout_constraintStart_toStartOf="@+id/createButton"
-        app:layout_constraintTop_toBottomOf="@+id/createButton" />
+        app:layout_constraintEnd_toEndOf="@+id/createUserButton"
+        app:layout_constraintStart_toStartOf="@+id/createUserButton"
+        app:layout_constraintTop_toBottomOf="@+id/createUserButton" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
