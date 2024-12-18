@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "696105342675",
+    "firebase_url": "https://waves-of-food-app-default-rtdb.firebaseio.com",
+    "project_id": "waves-of-food-app",
+    "storage_bucket": "waves-of-food-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696105342675:android:a15140b543e0d8d6dee626",
+        "android_client_info": {
+          "package_name": "com.example.adminwaves_of_food_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696105342675-47hr2d8v3l93flg0m6mec37epv2m792b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adminwaves_of_food_app",
+            "certificate_hash": "b72822b81b0757404ce3b9bfde6232fe9cff764a"
+          }
+        },
+        {
+          "client_id": "696105342675-rrcu6tsepksmggmik1v5tmpsd5lnqrbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8hpFaj6G21o51HeOAocjwPKnmeObLZyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696105342675-rrcu6tsepksmggmik1v5tmpsd5lnqrbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

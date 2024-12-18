@@ -99,7 +99,7 @@ Admin Dashboard"
         app:layout_constraintTop_toBottomOf="@+id/loginPassword" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appCompatButton"
+        android:id="@+id/googleButton"
         android:layout_width="152dp"
         android:layout_height="57dp"
         android:layout_marginLeft="20dp"
@@ -128,7 +128,7 @@ Admin Dashboard"
         android:text="Facebook"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/appCompatButton"
+        app:layout_constraintStart_toEndOf="@+id/googleButton"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
 
@@ -146,7 +146,7 @@ Admin Dashboard"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/appCompatButton2"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/appCompatButton"
+        app:layout_constraintStart_toStartOf="@+id/googleButton"
         app:layout_constraintTop_toBottomOf="@+id/appCompatButton2" />
 
     <TextView
